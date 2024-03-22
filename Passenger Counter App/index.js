@@ -1,11 +1,8 @@
-let count = 0
+let count = 0;
+let countEl = document.getElementById("count-el");
 
-console.log(count)
-
-let myAge = 27
-
-let humanDogRatio = 7
-
-let myDogAge = myAge * humanDogRatio
-
-console.log(myDogAge)
+function increment() {
+  count = count + 1;
+  countEl.innerText = count;
+  console.log(countEl);
+}
