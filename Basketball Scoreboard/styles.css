@@ -8,15 +8,13 @@ body {
     background-color: #1a253d;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    display: flex;
-    justify-content: space-around;
 }
 
 .container {
-    margin-top: 40px;
     display: flex;
     justify-content: space-around;
     width: 500px;
+    margin: 40px auto;
 }
 
 .card{
