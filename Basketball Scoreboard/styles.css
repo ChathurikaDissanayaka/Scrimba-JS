@@ -8,6 +8,7 @@ body {
     background-color: #1a253d;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
 }
 
 .container {
@@ -64,4 +65,17 @@ h3{
 
 .btn:hover{
     background-color: #617cb6ba;
+}
+
+.reset{
+    background-color: white;
+    color: #1a253d;
+    padding: 10px 50px;
+    width: 70px;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+.reset:hover{
+    background-color: rgba(255, 255, 255, 0.705);
 }
