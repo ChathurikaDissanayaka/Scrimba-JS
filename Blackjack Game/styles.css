@@ -18,6 +18,29 @@ h1 {
     font-style: italic
 }
 
+/* 
+3. Style the button according to the provided design
+text color - #016f32
+width      - 150px
+background - goldenrod
+ */
+
+#startGame{
+    color: #016f32;
+    font-size: 25px;
+    background-color: goldenrod;
+    font-weight: bold;
+    width: 260px;
+    border: none;
+    border-radius: 2px;
+    padding: 10px 20px;
+    box-shadow: 0 0 3px black;
+}
+
+#startGame:hover{
+    background-color: rgb(225, 185, 83);
+}
+
 footer {
     position: fixed;
     left: 0;
