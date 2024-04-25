@@ -55,9 +55,6 @@ h3{
     background-color: #1a253d;
     border: 2px solid #BAE6FD;
     border-radius: 5px;
-}
-
-.btn p{
     font-family: CursedTimerUlil;
     color: #BAE6FD;
     margin-top: 12px;
@@ -67,15 +64,17 @@ h3{
     background-color: #617cb6ba;
 }
 
-.reset{
+#reset{
     background-color: white;
     color: #1a253d;
+    border: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding: 10px 50px;
-    width: 70px;
     margin: 20px auto;
     border-radius: 5px;
+    text-align: center;
 }
 
-.reset:hover{
+#reset:hover{
     background-color: rgba(255, 255, 255, 0.705);
 }
