@@ -10,8 +10,12 @@ let password1 = document.getElementById("password-1")
 let password2 = document.getElementById("password-2")
 
 function generateRandomChars(){
-    let passwordString = "hhhhhhhhhhh"
+    let passwordString = ""
 
+    for (let i=0; i<15; i++){
+        let randNum = Math.floor(Math.random()*characters.length)
+        passwordString += characters[randNum]
+    }
     return passwordString
 }
 
