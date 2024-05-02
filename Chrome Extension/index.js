@@ -57,21 +57,4 @@ inputBtn.addEventListener("click", function() {
 // undefined
 // NaN
 
-// ulEl.innerHTML += "<li><a href=\"" + inputEl.value + "\" target=\"_blank\">" + inputEl.value + "</a></li>"
 
-// localStorage.setItem("Lead", "www.lead.com")
-// console.log(localStorage.getItem("Lead"))
-// localStorage.clear()
-
-// function renderLeads(){
-//     let listItems = ""
-//     for(let i = 0; i < myLeads.length; i++){
-//         // ulEl.innerHTML += "<li>" + myLeads[i] + "</li>"
-//         // let li = document.createElement("li")
-//         // li.textContent = myLeads[i]
-//         // ulEl.append(li)
-//         listItems += "<li>" + myLeads[i] + "</li>"
-//     }
-    
-//     ulEl.innerHTML = listItems
-// }
