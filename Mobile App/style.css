@@ -1,4 +1,44 @@
 html, body {
     margin: 0;
     padding: 0;
+    font-family: 'Rubik', sans-serif;
+    background-color: #EEF0F4;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    margin: 30px auto;
+}
+
+img{
+    width: 5em;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+input {
+    font-family: 'Rubik', sans-serif;
+    color: #432000;
+    background-color: #DCE1EB;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px 15px;
+    width: 170px;
+    margin: auto;
+}
+
+button {
+    font-family: 'Rubik', sans-serif;
+    color: #FDFDFD;
+    background-color: #AC485A;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    width: 200px;
+    margin: auto;
+    margin-top: 10px;
 }
