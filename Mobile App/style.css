@@ -42,3 +42,8 @@ button {
     margin: auto;
     margin-top: 10px;
 }
+
+#shopping-list{
+    text-align: left;
+    margin-left: 35px;
+}
