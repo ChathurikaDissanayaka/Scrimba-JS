@@ -1,5 +1,5 @@
 import {initializeApp} from "https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js"
-import {getDatabase, ref, push, onValue} from "https://www.gstatic.com/firebasejs/9.15.0/firebase-database.js"
+import {getDatabase, ref, push, onValue, remove} from "https://www.gstatic.com/firebasejs/9.15.0/firebase-database.js"
 
 const appSettings = {
     databaseURL: "https://playground-8eb31-default-rtdb.asia-southeast1.firebasedatabase.app/"
@@ -22,16 +22,21 @@ addButton.addEventListener("click", function(){
 })
 
 onValue(shoppingListInDB, function(snapshot){
-    let itemsArray = Object.entries(snapshot.val())
-    clearShoppingListEl()
+    if (snapshot.exists()) {
+        let itemsArray = Object.entries(snapshot.val())
+        clearShoppingListEl()
 
-    for(let i = 0; i < itemsArray.length; i++){
-        let currentItem = itemsArray[i]
-        let currentItemID = currentItem[0]
-        let currentItemValue = currentItem[1]
+        for(let i = 0; i < itemsArray.length; i++){
+            let currentItem = itemsArray[i]
+            let currentItemID = currentItem[0]
+            let currentItemValue = currentItem[1]
 
-        appendItemToShoppingListEl(currentItem)
+            appendItemToShoppingListEl(currentItem)
+        }
+    } else{
+        shoppingListEl.innerHTML = "No items here... yet"
     }
+    
 })
 
 function clearInput(){
@@ -49,6 +54,13 @@ function appendItemToShoppingListEl(item){
 
         let newEl = document.createElement("li")
         newEl.textContent = itemValue
+
+        newEl.addEventListener("dblclick", function(){
+            let exactLocationOfStoryInDB = ref(database, `shoppingList/${itemKey}`)
+        
+        remove(exactLocationOfStoryInDB)
+        })
+
         shoppingListEl.append(newEl)
     }
 }

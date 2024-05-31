@@ -4,6 +4,7 @@ html, body {
     text-align: center;
     font-family: 'Rubik', sans-serif;
     background-color: #EEF0F4;
+    color: #432000;
 }
 
 .container {
@@ -42,6 +43,11 @@ button {
     margin-top: 10px;
 }
 
+button:hover{
+    background-color: #432000;
+    cursor: pointer;
+} 
+
 #shopping-list{
     margin: 10px 0;
     padding: 0;
@@ -61,4 +67,9 @@ ul li {
     border-radius: 5px;
     flex-grow: 1;
     font-size: 15px;
+}
+
+ul li:hover{
+    background-color: #FFECC7;
+    cursor: pointer;
 }
