@@ -1,15 +1,15 @@
 html, body {
-    margin: 0;
+    margin: 20px auto;
     padding: 0;
+    text-align: center;
     font-family: 'Rubik', sans-serif;
     background-color: #EEF0F4;
-    text-align: center;
 }
 
 .container {
     display: flex;
     flex-direction: column;
-    max-width: 320px;
+    max-width: 200px;
     margin: 30px auto;
 }
 
@@ -19,6 +19,7 @@ img{
     margin: 0 auto;
     margin-bottom: 10px;
 }
+
 input {
     font-family: 'Rubik', sans-serif;
     color: #432000;
@@ -26,9 +27,8 @@ input {
     border: none;
     border-radius: 5px;
     text-align: center;
-    padding: 10px 15px;
-    width: 170px;
-    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 button {
@@ -37,13 +37,28 @@ button {
     background-color: #AC485A;
     border: none;
     border-radius: 5px;
-    padding: 10px 15px;
-    width: 200px;
-    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
     margin-top: 10px;
 }
 
 #shopping-list{
-    text-align: left;
-    margin-left: 35px;
+    margin: 10px 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+ul li {
+    background-color: #FFFDF8;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    border-radius: 5px;
+    flex-grow: 1;
+    font-size: 15px;
 }
