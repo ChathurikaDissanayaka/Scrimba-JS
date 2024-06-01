@@ -2,10 +2,37 @@
 <html>
     <head>
         <title>We are the Champions</title>
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/site.webmanifest">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Orbitron:wght@800&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <h1>We are the Champions</h1>
+        <main>
+            <img src="assets/freddie.png" alt="">
+            <h1>We are the Champions</h1>
+            <input type="text" id="main" placeholder="Write your endorsement here">
+            <div id="inputs">
+                <input type="text" id="from" placeholder="From">
+                <input type="text" id="to" placeholder="To">
+            </div>
+            <button id="publish">Publish</button>
+            <h2>- Endorsements -</h2>
+            <ul id="endorsements">
+                <li>
+                    <h3>From f</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates suscipit deserunt error natus accusamus, iste architecto dolor temporibus cum eligendi esse debitis aperiam dicta aliquid itaque, voluptas at iusto? Laudantium.</p>
+                    <div id="cont">
+                        <h3 id="reciever">To g</h3>
+                        <p id="love"><span id="heart">🖤</span>0</p>
+                    </div>
+                </li>
+            </ul>
+        </main>
         <script src="index.js"></script>
     </body>
 </html>

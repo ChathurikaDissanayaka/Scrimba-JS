@@ -1,4 +1,112 @@
 html, body {
     margin: 0;
     padding: 0;
+    background-color: black;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+    width: 300px;
+}
+
+img{
+    width: 100px;
+    height: auto;
+    margin: 30px auto;
+}
+
+h1{
+    font-size: 25px;
+    margin: 0;
+    margin-bottom: 10px;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+#main{
+    height: 80px;
+    padding-left: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: #444059;
+}
+
+#inputs{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 10px auto;
+}
+
+#from, #to{
+    width: 141px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #444059;
+}
+
+button{
+    font-size: 20px;
+    font-family: "Josefin Sans", sans-serif;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 5px;
+    border: none;
+    background-color: #28A9F1;
+}
+
+button:hover{
+    background-color: #87cff6;
+}
+
+h2{
+    font-family: "Josefin Sans", sans-serif;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+ul{
+    list-style: none;
+    margin: 10px 0;
+    padding: 0;
+}
+
+li{
+    background-color: #FFFFFF;
+    padding: 20px;
+    color: black;
+    text-align: left;
+}
+
+h3{
+    margin: 0;
+}
+
+#cont{
+    display: flex;
+    flex-direction: row;
+}
+
+#reciever{
+    margin-right: 190px;
+}
+
+#love{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#heart{
+    cursor: grab;
+    margin-top: 0;
+    margin-bottom: 0;
 }
