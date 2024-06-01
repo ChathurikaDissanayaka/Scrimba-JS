@@ -4,7 +4,8 @@ html, body {
     text-align: center;
     font-family: 'Rubik', sans-serif;
     background-color: #EEF0F4;
-    color: #432000;
+    /* color: #432000; */
+    color: #333333;
 }
 
 .container {
@@ -23,7 +24,8 @@ img{
 
 input {
     font-family: 'Rubik', sans-serif;
-    color: #432000;
+    /* color: #432000; */
+    color: #333333;
     background-color: #DCE1EB;
     border: none;
     border-radius: 5px;
@@ -35,7 +37,8 @@ input {
 button {
     font-family: 'Rubik', sans-serif;
     color: #FDFDFD;
-    background-color: #AC485A;
+    /* background-color: #AC485A; */
+    background-color: #8CD7ED;
     border: none;
     border-radius: 5px;
     padding-top: 10px;
@@ -44,7 +47,8 @@ button {
 }
 
 button:hover{
-    background-color: #432000;
+    /* background-color: #432000; */
+    background-color: #333333;
     cursor: pointer;
 } 
 
@@ -70,6 +74,7 @@ ul li {
 }
 
 ul li:hover{
-    background-color: #FFECC7;
+    /* background-color: #FFECC7; */
+    background-color: #FFCAE0;
     cursor: pointer;
 }
