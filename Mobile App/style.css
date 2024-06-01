@@ -12,19 +12,20 @@ html, body {
 .container {
     display: flex;
     flex-direction: column;
-    max-width: 200px;
+    max-width: 300px;
     margin: 30px auto;
 }
 
 img{
-    width: 5em;
+    width: 10em;
     height: auto;
     margin: 0 auto;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
 }
 
 input {
     font-family: 'Rubik', sans-serif;
+    font-size: 20px;
     /* color: #432000; */
     color: #333333;
     background-color: #DCE1EB;
@@ -32,20 +33,21 @@ input {
     border: none;
     border-radius: 5px;
     text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 button {
     font-family: 'Rubik', sans-serif;
+    font-size: 20px;
     color: #FDFDFD;
     /* background-color: #AC485A; */
     background-color: #8CD7ED;
     border: none;
     border-radius: 5px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-top: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 12px;
 }
 
 button:hover{
@@ -55,7 +57,7 @@ button:hover{
 } 
 
 #shopping-list{
-    margin: 10px 0;
+    margin: 12px 0;
     padding: 0;
 }
 
@@ -72,7 +74,7 @@ ul li {
     padding: 10px;
     border-radius: 5px;
     flex-grow: 1;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 ul li:hover{
