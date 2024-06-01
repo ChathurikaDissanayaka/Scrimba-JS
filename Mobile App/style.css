@@ -4,6 +4,7 @@ html, body {
     text-align: center;
     font-family: 'Rubik', sans-serif;
     background-color: #EEF0F4;
+    /* background-color: #f9f9e2; */
     /* color: #432000; */
     color: #333333;
 }
@@ -27,6 +28,7 @@ input {
     /* color: #432000; */
     color: #333333;
     background-color: #DCE1EB;
+    /* background-color: #f9f9b5; */
     border: none;
     border-radius: 5px;
     text-align: center;
