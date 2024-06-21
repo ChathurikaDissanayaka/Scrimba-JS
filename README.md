@@ -1,4 +1,4 @@
-# Learn JavaScript with Scrimba (Module Three of The Frontend Developer Career Path)
+# Learn JavaScript with Scrimba (Module Four of The Frontend Developer Career Path)
 ## Combining HTML & CSS skills with Javascript allowing  to create interactive websites.
 ### See the Projects Live:
 <ul>
