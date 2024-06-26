@@ -20,7 +20,9 @@ publishButton.addEventListener("click", function(){
     let inputContent = mainInputEl.value
     let inputFrom = fromInputEl.value
     let inputTo = toInputEl.value
-    let inputArray = [inputTo, inputContent, inputFrom]
+    let likes = 0
+    let liked = false
+    let inputArray = [inputTo, inputContent, inputFrom, likes, liked]
 
     if(inputContent != "" && inputFrom != "" && inputTo != ""){
         let inputObject = makeAnObject(inputArray)
@@ -33,10 +35,11 @@ onValue(endorsementsListInDb, function(snapshot){
     if (snapshot.exists()){
         let itemsArray = Object.entries(snapshot.val())
         clearEndorsementsListEl()
+
         for(let i = 0; i < itemsArray.length; i++){
             let currentItem = itemsArray[i]
             appendItemToEndorsementsListEl(currentItem)
-        } 
+        }
     } else{
         endorsementsUlEl.innerHTML = "No items here... yet"
     }
@@ -56,30 +59,32 @@ function clearEndorsementsListEl(){
     endorsementsUlEl.innerHTML= ""
 }
 
-function makeLiElement(itemObject){
-    let inputArray = Object.values(itemObject)
+function makeLiElement(inputArray){
     let liItem = `<h3>To ${inputArray[0]}</h3>
                     <p>${inputArray[1]}</p>
                     <div id="cont">
                         <h3 id="reciever">From ${inputArray[2]}</h3>
+                        <p id="love"><span id="heart">🖤</span>${inputArray[3]}</p>
                     </div>`
-                    // <p id="love"><span id="heart">🖤</span>${inputArray[3]}</p>
     return liItem
 }
 
 function appendItemToEndorsementsListEl(item){
     if(item != ""){
         let itemKey = item[0]
-        let itemValue = item[1]
-
+        let itemValue = Object.values(item[1])
         let newEl = document.createElement("li")
         newEl.innerHTML = makeLiElement(itemValue)
 
-        // newEl.addEventListener("dblclick", function(){
-        //     let exactLocationOfStoryInDB = ref(database, `endorsementsList/${itemKey}`)
-        
-        // remove(exactLocationOfStoryInDB)
-        // })
+        newEl.addEventListener("dblclick", function(){
+            // let exactLocationOfStoryInDB = ref(database, `endorsementsList/${itemKey}`)
+            // remove(exactLocationOfStoryInDB)
+            if(!itemValue[4]){
+                itemValue[3]++
+                newEl.innerHTML = makeLiElement(itemValue)
+                itemValue[4] = true
+            }
+        })
 
         endorsementsUlEl.prepend(newEl)
     }
