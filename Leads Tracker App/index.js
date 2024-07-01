@@ -29,7 +29,9 @@ function render(leads) {
 }
 
 onValue(referenceInDB, function(snapshot){
-    console.log(snapshot.val())
+    const snapshotValues = snapshot.val()
+    // Challenge: Create a const called 'leads' which is an array containing the values inside of the snapshotValues object
+    const leads = Object.values(snapshotValues)
 })
 
 deleteBtn.addEventListener("dblclick", function(){
