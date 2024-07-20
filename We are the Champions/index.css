@@ -19,62 +19,24 @@ img{
     margin: 30px auto;
 }
 
+h1, h2, button{
+    font-family: "Josefin Sans", sans-serif;
+}
+
 h1{
     font-size: 25px;
     margin: 0;
     margin-bottom: 10px;
-    font-family: "Josefin Sans", sans-serif;
-}
-
-#main{
-    height: 80px;
-    padding-left: 10px;
-    font-size: 15px;
-    border-radius: 5px;
-    border: none;
-    background-color: #444059;
-}
-
-#inputs{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 10px;
-    margin: 10px auto;
-    font-family: "Inter", sans-serif;
-}
-
-#from, #to{
-    width: 140px;
-    font-family: "Inter", sans-serif;
-    text-align: center;
-    font-size: 15px;
-    border-radius: 5px;
-    border: none;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    background-color: #444059;
-}
-
-button{
-    font-size: 20px;
-    font-family: "Josefin Sans", sans-serif;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    border-radius: 5px;
-    border: none;
-    background-color: #28A9F1;
-    color: black;
-}
-
-button:hover{
-    background-color: #87cff6;
 }
 
 h2{
-    font-family: "Josefin Sans", sans-serif;
     font-size: 20px;
     margin-bottom: 0;
+}
+
+h3{
+    margin: 0;
+    font-size: 15px;
 }
 
 ul{
@@ -90,12 +52,52 @@ li{
     color: black;
     text-align: left;
     margin-bottom: 10px;
+}
+
+button{
+    font-size: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 5px;
+    border: none;
+    background-color: #28A9F1;
+    color: black;
+}
+
+button:hover{
+    background-color: #87cff6;
+}
+
+#main{
+    height: 80px;
+    padding-left: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: #444059;
+}
+
+#inputs, #from, #to{
     font-family: "Inter", sans-serif;
 }
 
-h3{
-    margin: 0;
+#inputs{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 10px auto;
+}
+
+#from, #to{
+    width: 140px;
+    text-align: center;
     font-size: 15px;
+    border-radius: 5px;
+    border: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background-color: #444059;
 }
 
 #cont{
@@ -108,14 +110,12 @@ h3{
     width: 220px;
 }
 
-#love{
+#love, #hear{
     margin-top: 0;
     margin-bottom: 0;
 }
 
 #heart{
     cursor: grab;
-    margin-top: 0;
-    margin-bottom: 0;
     user-select: none;
 }

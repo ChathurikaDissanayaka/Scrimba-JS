@@ -8,11 +8,6 @@ body {
     text-shadow: 0 0 10px #000;
 }
 
-#main-div{
-    max-width: 300px;
-    margin: auto;
-}
-
 h1 {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -35,13 +30,16 @@ button {
     border-radius: 5px;
 }
 
+#main-div{
+    max-width: 300px;
+    margin: auto;
+}
+
 #increment-btn {
-    /* background: darkred; */
     background: #A00E19;
 }
 
 #save-btn {
-    /* background: darkgreen; */
     background: #1F478F;
 }
 

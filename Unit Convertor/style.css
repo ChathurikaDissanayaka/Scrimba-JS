@@ -5,6 +5,16 @@ body {
     background-color: #E5E7EB;
 }
 
+main div{
+    background-color: #FFFFFF;
+    margin: 2em 20em;
+    padding: 10px 30px;
+}
+
+h3{
+    color: #374151;
+}
+
 header{
     padding-top: 10px;
     padding-bottom: 40px;
@@ -32,17 +42,3 @@ header{
     margin-top: 30px;
     font-size: 15px;
 }
-
-main div{
-    background-color: #FFFFFF;
-    margin: 2em 20em;
-    padding: 10px 30px;
-}
-
-h3{
-    color: #374151;
-}
-
-/* p{
-
-} */

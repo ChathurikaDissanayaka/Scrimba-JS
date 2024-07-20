@@ -26,11 +26,6 @@ button {
     font-weight: bold;
 }
 
-#delete-btn{
-    color: #5f9341;
-    background: white;
-}
-
 ul {
     margin-top: 15px;
     list-style: none;
@@ -44,4 +39,9 @@ li {
 
 li a {
     color: #5f9341;
+}
+
+#delete-btn{
+    color: #5f9341;
+    background: white;
 }

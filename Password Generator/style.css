@@ -11,13 +11,13 @@ main{
     width: 50vw;
 }
 
-.main-cont{
-    border-bottom: 2px solid #374157;
-}
-
 h2{
     font-size: 70px;
     margin-bottom: 0;
+}
+
+.main-cont{
+    border-bottom: 2px solid #374157;
 }
 
 .green-text{
