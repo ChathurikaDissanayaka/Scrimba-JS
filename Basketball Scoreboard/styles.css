@@ -11,6 +11,11 @@ body {
     text-align: center;
 }
 
+h3{
+    font-size: 36px;
+    margin-bottom: 0;
+}
+
 .container {
     display: flex;
     justify-content: space-around;
@@ -20,11 +25,6 @@ body {
 
 .card{
     text-align: center;
-}
-
-h3{
-    font-size: 36px;
-    margin-bottom: 0;
 }
 
 .score{
