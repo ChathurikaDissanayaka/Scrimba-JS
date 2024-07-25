@@ -1,4 +1,4 @@
-# Learn JavaScript with Scrimba (Module Four of The Frontend Developer Career Path)
+# Coding challenges of Module Three of The Frontend Developer Career Path in Scrimba
 
 ### See the Projects Live:
 <ul>
