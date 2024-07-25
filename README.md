@@ -1,5 +1,5 @@
 # Learn JavaScript with Scrimba (Module Four of The Frontend Developer Career Path)
-## Combining HTML & CSS skills with Javascript allowing  to create interactive websites.
+
 ### See the Projects Live:
 <ul>
   <li><a  href="https://65fdb5e7430d3e2d54cca24f--sweet-gaufre-ea9f39.netlify.app/">Passenger Counter App</a></li>
