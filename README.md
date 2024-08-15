@@ -1,4 +1,4 @@
-# Coding challenges of Module Three of The Frontend Developer Career Path in Scrimba
+# JavaScript projects from the 'Learn JavaScript' and 'Frontend Developer Career Path' courses on Scrimba.
 
 <ul>
   <li><a  href="https://65fdb5e7430d3e2d54cca24f--sweet-gaufre-ea9f39.netlify.app/">Passenger Counter App</a></li>
